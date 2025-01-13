@@ -48,6 +48,7 @@ export const Container = styled.section`
   .about-image{
     text-align: center;
    img{
+   border-radius:50%;
      margin-top: 2rem;
      width: 75%;
      filter: grayscale(0);
