@@ -27,9 +27,9 @@ export function About() {
           </p>
         </div>
         <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
-          <p>
+          {/* <p>
             But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Wix, making it easy to take control of their own websites and keep them up to date.
-          </p>
+          </p> */}
         </div>
         <div>
           <p>
@@ -41,7 +41,7 @@ export function About() {
         </div>
         <div className="hard-skills">
           {[
-            { src: wordpress, alt: "Wordpress" },
+            // { src: wordpress, alt: "Wordpress" },
             { src: Figma, alt: "Figma" },
             { src: reactIcon, alt: "React" },
             { src: typescriptIcon, alt: "Typescript" },
@@ -62,7 +62,7 @@ export function About() {
       </div>
       <div className="about-image">
         <div>
-          <img src={Priyanshu} alt="Vinayak Singh" />
+          <img src={Priyanshu} alt="Priyanshu" />
         </div>
       </div>
     </Container>
