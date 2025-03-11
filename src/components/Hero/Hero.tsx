@@ -26,7 +26,7 @@ export function Hero() {
 
         {/* Description */}
         <p className="small-resume">
-          Passionate tech enthusiast eager to contribute to the tech world
+          Passionate tech enthusiast from Delhi eager to contribute to the tech world
         </p>
 
         {/* Contact Button */}
