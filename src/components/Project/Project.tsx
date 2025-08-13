@@ -63,24 +63,23 @@ export function Project() {
               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
             </svg>
             <div className="project-links">
-              <a href="https://github.com/Realsingh123/Eduweb-clone" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Realsingh123/Shopping-website.git" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visit site" />
               </a>
-              <a href="https://eduweb-clone.vercel.app/" target="_blank" rel="noreferrer">
+              <a href="https://shopping-website-bnki.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={externalLink} alt="Visit site" />
               </a>
             </div>
           </header>
           <div className="body">
-            <h3>Edu Web clone</h3>
+            <h3>Mini e-commmerce</h3>
             <p>
-            EduLearn Clone is a simple, responsive educational website built using HTML and CSS. It features a clean design with sections for courses, about us, contact, and testimonials. The homepage showcases an attractive banner, course listings, and a footer with social media links. This project serves as a basic template for an e-learning platform, ideal for practice in frontend development. 🚀
-            </p>
+Mini E-commerce is a simple, responsive online shopping website built using React.js. It features a clean and modern design with sections for product listings, cart, contact, etc. The homepage showcases an attractive banner, featured products, and a footer with social media links. This project serves as a basic template for an e-commerce platform, ideal for practicing frontend development and building online store interfaces. 🛒            </p>
           </div>
           <footer>
             <ul className="tech-list">
-              <li>HTML</li>
-              <li>JavaScript</li>
+              <li>React</li>
+              
               {/* <li>Gsap</li> */}
             </ul>
           </footer>
