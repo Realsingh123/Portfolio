@@ -63,22 +63,25 @@ export function Project() {
               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
             </svg>
             <div className="project-links">
-              <a href="https://github.com/Realsingh123/Shopping-website.git" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Realsingh123/Eduweb-clone.git" target="_blank" rel="noreferrer">
                 <img src={githubIcon} alt="Visit site" />
               </a>
-              <a href="https://shopping-website-bnki.vercel.app/" target="_blank" rel="noreferrer">
+              <a href="https://eduweb-clone.vercel.app/" target="_blank" rel="noreferrer">
                 <img src={externalLink} alt="Visit site" />
               </a>
             </div>
           </header>
           <div className="body">
-            <h3>Mini e-commmerce</h3>
+            <h3>EDU Web clone</h3>
             <p>
-Mini E-commerce is a simple, responsive online shopping website built using React.js. It features a clean and modern design with sections for product listings, cart, contact, etc. The homepage showcases an attractive banner, featured products, and a footer with social media links. This project serves as a basic template for an e-commerce platform, ideal for practicing frontend development and building online store interfaces. 🛒            </p>
+          A responsive educational website template designed with HTML, CSS, and JavaScript. It features a modern UI with sections like hero, categories, courses, blog, and footer. The design emphasizes accessibility, smooth navigation, and professional aesthetics, making it suitable for e-learning platforms or academic institutions. </p>
           </div>
           <footer>
             <ul className="tech-list">
-              <li>React</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JS</li>
+
               
               {/* <li>Gsap</li> */}
             </ul>
