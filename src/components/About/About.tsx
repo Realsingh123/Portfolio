@@ -23,7 +23,7 @@ export function About() {
         </div>
         <div>
           <p>
-            Hi there! I'm Priyanshu, a website developer with a passion and skill set including HTML, CSS, JavaScript, React, Express, and MongoDB. I have the tools to bring any website vision to life.
+            Hi there! I'm Priyanshu, a Front end  developer with a passion and skill set including HTML, CSS, JavaScript, React,  Typescript. I have the tools to bring any website vision to life.
           </p>
         </div>
         <div style={{ marginTop: "2rem", marginBottom: "2rem" }}>
