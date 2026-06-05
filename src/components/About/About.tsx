@@ -1,6 +1,5 @@
 import { Container } from "./styles";
 import Priyanshu from "../../assets/my pic.jpg";
-import wordpress from "../../assets/wordpress.svg";
 import Express from "../../assets/icons8-express-js.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";

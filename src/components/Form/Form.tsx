@@ -8,7 +8,6 @@ import validator from 'validator'
 export function Form() {
   const [state, handleSubmit] = useForm('xknkpqry')
   const [validEmail, setValidEmail] = useState(false)
-  const [isHuman, setIsHuman] = useState(false)
   const [message, setMessage] = useState('')
   function verifyEmail(email: string) {
     if (validator.isEmail(email)) {
@@ -80,7 +79,7 @@ export function Form() {
         ></ReCAPTCHA> */}
         <button
           type="submit"
-          disabled={state.submitting || !validEmail || !message || !isHuman}
+          disabled={state.submitting || !validEmail || !message }
         >
           Submit
         </button>

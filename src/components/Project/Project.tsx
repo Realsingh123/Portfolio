@@ -2,7 +2,7 @@ import { Container } from "./styles";
 import githubIcon from "../../assets/github.svg"
 // import DownloadApp from '../../assets/download.webp'
 import externalLink from "../../assets/external-link.svg"
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 export function Project() {
   return (
     <Container id="project">
@@ -106,9 +106,10 @@ export function Project() {
               <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
             </svg>
             <div className="project-links">
-              <a href="#" target="_blank" rel="noreferrer">
+              {/* <a href="#" target="_blank" rel="noreferrer"> */}
                 <img src={githubIcon} alt="Visit site" />
-              </a>
+                {/* </a> */}
+          
               <a href="https://ashuswan3.wixsite.com/my-site-7" target="_blank" rel="noreferrer">
                 <img src={externalLink} alt="Visit site" />
               </a>
